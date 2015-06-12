@@ -3,12 +3,14 @@ wget http://public.dhe.ibm.com/ibmdl/export/pub/software/products/en/MobileFirst
 
 ##wget http://halpert.austin.ibm.com/productionBuilds-capella/LATEST-INTEGRATION/mobilefirst-cli-installer-7.1.0-20150611-0712.zip
 unzip mobilefirst_cli_installer_7.0.0.zip
-cd mobilefirst-cli-installer-7.0.0
-##cat bookmarks.html
+echo "Before moving to mobile first folder"
 ls -la
+##cd mobilefirst-cli-installer-7.0.0
+
+##ls -la
 
 echo "Going to install"
 cat ../installer.properties
-./install_linux.bin -i silent -f ../installer.properties
+./mobilefirst-cli-installer-7.0.0/install_linux.bin -i silent -f installer.properties
 cd ..
 ls -la
