@@ -11,6 +11,6 @@ ls -la
 
 echo "Going to install"
 cat installer.properties
-./mobilefirst-cli-installer-7.0.0/install_linux.bin -i silent -f installer.properties
+./mobilefirst-cli-installer-7.0.0/install_linux.bin -i silent -f ./installer.properties
 cd ..
 ls -la
