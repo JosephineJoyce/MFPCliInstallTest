@@ -10,8 +10,9 @@ cd mobilefirst-cli-installer-7.0.0
 
 ls -la
 
-echo "Going to install"
+
 cat installer.properties
+echo "Going to install"
 ./install_linux.bin -i silent
 
 cd ..
