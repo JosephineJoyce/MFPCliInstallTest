@@ -12,7 +12,7 @@ ls -la
 
 echo "Going to install"
 cat installer.properties
-./mobilefirst-cli-installer-7.0.0/install_linux.bin
+./install_linux.bin -i silent
 
-##cd ..
-##ls -la
+cd ..
+ls -la
