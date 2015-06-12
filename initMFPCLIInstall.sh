@@ -6,6 +6,9 @@ unzip mobilefirst_cli_installer_7.0.0.zip
 cd mobilefirst-cli-installer-7.0.0
 ##cat bookmarks.html
 ls -la
+
+echo "Going to install"
+cat ../installer.properties
 ./install_linux.bin -i silent -f ../installer.properties
 cd ..
 ls -la
