@@ -7,7 +7,7 @@ pwd
 
 echo "Before moving to mobile first folder"
 ls -la
-mkdir /usr/Worklight-CLI
+mkdir Worklight-CLI
 cp installer.properties mobilefirst-cli-installer-7.1.0/
 cd mobilefirst-cli-installer-7.1.0
 
