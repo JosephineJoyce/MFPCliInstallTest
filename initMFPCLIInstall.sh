@@ -6,8 +6,8 @@ echo "---------- current folder is ------"
 pwd
 
 echo "Before moving to mobile first folder"
-ls -la
 mkdir Worklight-CLI
+ls -la
 cp installer.properties mobilefirst-cli-installer-7.1.0/
 cd mobilefirst-cli-installer-7.1.0
 
