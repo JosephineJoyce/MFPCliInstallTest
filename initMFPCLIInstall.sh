@@ -19,7 +19,8 @@ ls -la
 cat installer.properties
 echo "Going to install"
 export LAX_DEBUG=true
-./install_linux.bin -i silent -Xms1024m -Xmx4096m
+#./install_linux.bin -i silent -Xms1024m -Xmx4096m
+./install_linux.bin -i silent
 
 ls -la
 echo "install complete"
