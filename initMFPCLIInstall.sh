@@ -15,8 +15,11 @@ cat installer.properties
 echo "Going to install"
 ./install_linux.bin -i silent
 
+echo "install complete"
+
 mfp -v
-cd ..
-ls -la
+
+##cd ..
+##ls -la
 
 
