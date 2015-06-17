@@ -18,7 +18,7 @@ cd mobilefirst-cli-installer-7.1.0
 echo "Going to install"
 export LAX_DEBUG=true
 #./install_linux.bin -i silent -Xms1024m -Xmx4096m
-sudo ./install_linux.bin -i silent
+sudo ./install_linux.bin -i silent > /dev/null 
 
 #ls -la
 
