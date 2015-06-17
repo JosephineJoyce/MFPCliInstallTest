@@ -1,15 +1,13 @@
 #!/bin/bash
 #wget http://public.dhe.ibm.com/ibmdl/export/pub/software/products/en/MobileFirstPlatform/mobilefirst_cli_installer_7.0.0.zip
 wget https://www.dropbox.com/s/dtrm0mhm26zl53x/mobilefirst-cli-installer-7.1.0-20150601-0314.zip
-
-java -version
-echo $JAVA_HOME
-
-which java
-
 unzip mobilefirst-cli-installer-7.1.0-20150601-0314
+echo "---------- current folder is ------"
+pwd
+
 echo "Before moving to mobile first folder"
 ls -la
+mkdir /usr/Worklight-CLI
 cp installer.properties mobilefirst-cli-installer-7.1.0/
 cd mobilefirst-cli-installer-7.1.0
 
