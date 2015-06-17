@@ -18,15 +18,14 @@ cd mobilefirst-cli-installer-7.1.0
 #cat installer.properties
 echo "Going to install"
 export LAX_DEBUG=true
-echo "sudo test"
-sudo apt-get update &> /dev/null
-sudo apt-get -y install python2.7 &> /dev/null
-echo "sudo test end"
+#echo "sudo test"
+#sudo apt-get update &> /dev/null
+#sudo apt-get -y install python2.7 &> /dev/null
+#echo "sudo test end"
 
 #./install_linux.bin -i silent -Xms1024m -Xmx4096m
 #./install_linux.bin -i silent
-
-#ls -la
+ls -la
 
 #echo "To print mfp version" -
 #mfp -v
